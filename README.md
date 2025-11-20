@@ -16,7 +16,13 @@ The `simpleAnalytics.client.ts` plugin automatically integrates Simple Analytics
    1. Nuxt 3: `plugins/simpleAnalytics.client.ts`
    2. Nuxt 4: `app/plugins/simpleAnalytics.client.ts`
 
-3. Add `@simpleanalytics/nuxt` to the `modules` array in your `nuxt.config.ts`:
+3. Use a package manager to install the module:
+
+   ```bash
+   npm i @simpleanalytics/nuxt
+   ```
+
+4. Add `@simpleanalytics/nuxt` to the `modules` array in your `nuxt.config.ts`:
 
    ```typescript
    export default defineNuxtConfig({
